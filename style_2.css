@@ -51,10 +51,31 @@ img {
   p {
     font-size: 16pt;
   }
+  #column_one, #column_two {
+    width: 35%
+  }
+  #column_two {
+    left: 30%
+  }
+  img {
+    left: 30%;
+    max-width: 69%;
+  }
+
 }
 
-@media only screen and (max-width: 600px) {
+@media only screen and (max-width: 640px) {
   p {
     font-size: 10pt;
+  }
+  #column_one, #column_two {
+    width: 40%
+  }
+  #column_two {
+    left: 45%
+  }
+  img {
+    left: 1%;
+    max-width: 98%;
   }
 }
