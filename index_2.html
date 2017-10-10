@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+
+  <head>
+    <title>Dani&euml;l Siegersma</title>
+    <link rel="stylesheet" type="text/css" href="style_2.css">
+    <script type='text/javascript' src="jquery-2.1.4.min.js"></script>
+    <!--
+/**
+ * @license
+ * MyFonts Webfont Build ID 3462131, 2017-10-10T07:31:48-0400
+ *
+ * The fonts listed in this notice are subject to the End User License
+ * Agreement(s) entered into by the website owner. All other parties are
+ * explicitly restricted from using the Licensed Webfonts(s).
+ *
+ * You may obtain a valid license at the URLs below.
+ *
+ * Webfont: Recta-Regular by Canada Type
+ * URL: https://www.myfonts.com/fonts/canadatype/recta/regular/
+ * Copyright: Copyright &#x00A9; 2011-2013 Canada Type. All rights reserved.
+ * Licensed pageviews: 10,000
+ *
+ *
+ * License: https://www.myfonts.com/viewlicense?type=web&buildid=3462131
+ *
+ * © 2017 MyFonts Inc
+*/
+
+-->
+  <link rel="stylesheet" type="text/css" href="Daniel_1.css">
+  </head>
+  <body>
+    <div id="column_one">
+      <p>
+        Dani&euml;l Siegersma <br> Photographer
+      </p>
+    </div>
+    <div id="column_two">
+      <p>
+        +31 6 52 88 11 10 <br> <a href="mailto:danielsiegersma@hotmail.com">e-mail</a></br>
+      </p>
+    </div>
+    <div id="column_three"></div>
+    <script>
+      var photos = ['1.jpg', '2.jpg', '3.jpg', '4.jpg', '5.jpg', '6.jpg']
+      $('<img src="images/' + photos[Math.floor(Math.random() * photos.length)] + '">').appendTo('#column_three');
+    </script>
+  </body>
+
+</html>
