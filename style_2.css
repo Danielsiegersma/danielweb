@@ -46,7 +46,7 @@ img {
   top: 1.3%;
 }
 
-@media only screen and (max-width: 800px) {
+@media only screen and (max-width: 800pt) {
   p {
     font-size: 16pt;
   }
@@ -76,6 +76,6 @@ img {
   img {
     left: 1%;
     max-width: 98%;
-    max-height: 90%;
+    max-height: 89%;
   }
 }
