@@ -63,9 +63,9 @@ img {
 
 }*/
 
-@media only screen and (max-width: 800pt) {
+@media only screen and (max-width: 700pt) {
   p {
-    font-size: 12pt;
+    font-size: 14pt;
   }
   #column_one, #column_two {
     width: 40%
@@ -76,6 +76,12 @@ img {
   img {
     left: 1%;
     max-width: 98%;
-    max-height: 89%;
+    max-height: 85%;
   }
+}
+
+@media only screen and (max-width: 500pt) {
+    p {
+      font-size: 12pt;
+    }
 }
