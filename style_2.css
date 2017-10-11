@@ -65,7 +65,7 @@ img {
 
 @media only screen and (max-width: 800pt) {
   p {
-    font-size: 14pt;
+    font-size: 16pt;
   }
   #column_one, #column_two {
     width: 40%
