@@ -63,7 +63,7 @@ img {
 
 }*/
 
-@media only screen and (max-width: 700pt) {
+@media only screen and (max-width: 800pt) {
   p {
     font-size: 12pt;
   }
